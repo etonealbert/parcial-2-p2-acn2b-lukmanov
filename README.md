@@ -41,11 +41,6 @@ php -S localhost:8000
 # Abrir en el navegador: http://localhost:8000
 ```
 
-### Opción 2: XAMPP / WAMP / MAMP
-1. Copiar el proyecto a la carpeta `htdocs` (XAMPP) o `www` (WAMP)
-2. Iniciar Apache
-3. Abrir en el navegador: `http://localhost/parcial-2-p2-acn2b-lukmanov`
-
 ## 📁 Descripción de Archivos
 
 ### `data.json`
