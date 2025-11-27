@@ -15,13 +15,13 @@ Este proyecto es una **Biblioteca de Videojuegos Retro** que permite:
 
 ```
 parcial-2-p2-acn2b-lukmanov/
-├── data.json          # Base de datos JSON con 18 juegos retro
-├── api.php            # API REST (GET para filtrar, POST para agregar)
-├── index.php          # Interfaz de usuario principal
-├── style.css          # Estilos con soporte para dos temas
-├── main.js            # Lógica de frontend (AJAX, filtros, temas)
-├── .gitignore         # Archivos ignorados por Git
-└── README.md          # Documentación del proyecto
+├── data.json          # Base de datos JSON con juegos retro
+├── api.php           
+├── index.php          
+├── style.css     
+├── main.js         
+├── .gitignore        
+└── README.md          
 ```
 
 ## 🚀 Instalación y Ejecución
