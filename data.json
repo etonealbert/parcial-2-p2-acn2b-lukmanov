@@ -25,7 +25,7 @@
     "title": "Sonic the Hedgehog 2",
     "category": "Platformer",
     "description": "El erizo azul más veloz regresa con su amigo Tails para detener los planes del Dr. Robotnik. ¡Velocidad supersónica!",
-    "image": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Sonic%20the%20Hedgehog%202%20(World).png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg"
   },
   {
     "id": 5,
@@ -53,7 +53,7 @@
     "title": "Tetris",
     "category": "Puzzle",
     "description": "El juego de puzzles más adictivo jamás creado. Encaja las piezas y limpia líneas hasta el infinito.",
-    "image": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Tetris%20(World).png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/8d/NES_Tetris_Box_Front.jpg"
   },
   {
     "id": 9,
@@ -95,21 +95,21 @@
     "title": "Galaga",
     "category": "Shooter",
     "description": "El shooter espacial definitivo de los arcades. Destruye formaciones de naves alienígenas y rescata tu nave capturada.",
-    "image": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Galaga%20(USA).png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f6/Galaga_box_art.jpg"
   },
   {
     "id": 15,
     "title": "Super Metroid",
     "category": "Platformer",
     "description": "Samus Aran en su mejor aventura. Explora el planeta Zebes, obtén power-ups y derrota a Mother Brain.",
-    "image": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Metroid%20(Japan,%20USA).png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg"
   },
   {
     "id": 16,
     "title": "Dr. Mario",
     "category": "Puzzle",
     "description": "Mario se pone la bata de médico para eliminar virus con cápsulas de colores. ¡Puzzles adictivos garantizados!",
-    "image": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Dr.%20Mario%20(USA).png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4c/Dr_Mario_NES_cover.png"
   },
   {
     "id": 17,
@@ -126,4 +126,3 @@
     "image": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Master_System_-_Mark_III/master/Named_Boxarts/R-Type%20(World).png"
   }
 ]
-
