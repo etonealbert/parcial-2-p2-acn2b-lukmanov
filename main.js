@@ -1,15 +1,6 @@
-/**
- * Retro Video Game Library - Main JavaScript
- * Handles data fetching, filtering, theme toggling, and form submissions
- */
-
-// ==========================================
-// GLOBAL VARIABLES & DOM ELEMENTS
-// ==========================================
 
 const API_ENDPOINT = 'api.php';
 
-// DOM Elements
 const gamesGrid = document.getElementById('gamesGrid');
 const searchInput = document.getElementById('searchInput');
 const categoryFilter = document.getElementById('categoryFilter');
@@ -19,56 +10,33 @@ const resultsCount = document.getElementById('resultsCount');
 const clearFiltersBtn = document.getElementById('clearFilters');
 const loadingState = document.getElementById('loadingState');
 
-// Current filter state
 let currentFilters = {
     search: '',
     category: 'all'
 };
 
-// ==========================================
-// INITIALIZATION
-// ==========================================
-
 document.addEventListener('DOMContentLoaded', () => {
-    // Initialize theme from localStorage
     initTheme();
     
-    // Load initial data
     loadGames();
     
-    // Setup event listeners
     setupEventListeners();
 });
 
-// ==========================================
-// THEME MANAGEMENT
-// ==========================================
-
-/**
- * Initialize theme from localStorage or URL params
- */
 function initTheme() {
-    // Check URL params first
     const urlParams = new URLSearchParams(window.location.search);
     const urlTheme = urlParams.get('theme');
     
-    // Then check localStorage
     const savedTheme = urlTheme || localStorage.getItem('retroVaultTheme') || 'light';
     
     setTheme(savedTheme);
 }
 
-/**
- * Set the current theme
- * @param {string} theme - 'light' or 'dark'
- */
 function setTheme(theme) {
     const isDark = theme === 'dark';
     
-    // Update data attribute on document
     document.documentElement.setAttribute('data-theme', theme);
     
-    // Update toggle button
     const themeIcon = themeToggle.querySelector('.theme-icon');
     const themeText = themeToggle.querySelector('.theme-text');
     
@@ -80,42 +48,27 @@ function setTheme(theme) {
         themeText.textContent = 'Modo Claro';
     }
     
-    // Save to localStorage
     localStorage.setItem('retroVaultTheme', theme);
     
-    // Update URL param (optional, for sharing)
     const url = new URL(window.location);
     url.searchParams.set('theme', theme);
     window.history.replaceState({}, '', url);
 }
 
-/**
- * Toggle between light and dark themes
- */
 function toggleTheme() {
     const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
     const newTheme = currentTheme === 'light' ? 'dark' : 'light';
     
     setTheme(newTheme);
     
-    // Show notification
     const themeName = newTheme === 'dark' ? 'Modo Arcade 🕹️' : 'Modo Nintendo ☀️';
     showToast(`¡Tema cambiado a ${themeName}!`, 'info');
 }
 
-// ==========================================
-// DATA FETCHING & RENDERING
-// ==========================================
-
-/**
- * Load games from the API
- * @param {Object} filters - Optional filters (search, category)
- */
 async function loadGames(filters = {}) {
     try {
         showLoading(true);
         
-        // Build query string
         const params = new URLSearchParams();
         
         if (filters.search && filters.search.trim()) {
@@ -129,7 +82,6 @@ async function loadGames(filters = {}) {
         const queryString = params.toString();
         const url = queryString ? `${API_ENDPOINT}?${queryString}` : API_ENDPOINT;
         
-        // Fetch data
         const response = await fetch(url);
         
         if (!response.ok) {
@@ -153,10 +105,6 @@ async function loadGames(filters = {}) {
     }
 }
 
-/**
- * Render games in the grid
- * @param {Array} games - Array of game objects
- */
 function renderGames(games) {
     // Clear existing content
     gamesGrid.innerHTML = '';
@@ -257,10 +205,7 @@ function showLoading(isLoading) {
     }
 }
 
-/**
- * Show error message
- * @param {string} message - Error message to display
- */
+
 function showError(message) {
     gamesGrid.innerHTML = `
         <div class="empty-state">
@@ -302,10 +247,7 @@ function updateResultsCount(count, filters) {
 // FORM HANDLING
 // ==========================================
 
-/**
- * Handle add game form submission
- * @param {Event} event - Form submit event
- */
+
 async function handleFormSubmit(event) {
     event.preventDefault();
     
@@ -402,11 +344,7 @@ async function handleFormSubmit(event) {
     }
 }
 
-/**
- * Validate form data before submission
- * @param {Object} data - Form data object
- * @returns {boolean} Validation result
- */
+
 function validateFormData(data) {
     const errors = [];
     
@@ -495,34 +433,24 @@ function clearFilters() {
 // EVENT LISTENERS SETUP
 // ==========================================
 
-/**
- * Setup all event listeners
- */
+
 function setupEventListeners() {
-    // Theme toggle
     themeToggle.addEventListener('click', toggleTheme);
     
-    // Search input
     searchInput.addEventListener('input', handleSearchInput);
     
-    // Category filter
     categoryFilter.addEventListener('change', handleCategoryChange);
     
-    // Clear filters button
     clearFiltersBtn.addEventListener('click', clearFilters);
     
-    // Add game form
     addGameForm.addEventListener('submit', handleFormSubmit);
     
-    // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {
-        // Ctrl/Cmd + K to focus search
         if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
             e.preventDefault();
             searchInput.focus();
         }
         
-        // Escape to clear search
         if (e.key === 'Escape' && document.activeElement === searchInput) {
             searchInput.value = '';
             handleSearchInput();
@@ -534,11 +462,6 @@ function setupEventListeners() {
 // UTILITY FUNCTIONS
 // ==========================================
 
-/**
- * Escape HTML to prevent XSS
- * @param {string} text - Text to escape
- * @returns {string} Escaped text
- */
 function escapeHTML(text) {
     if (!text) return '';
     
@@ -547,11 +470,7 @@ function escapeHTML(text) {
     return div.innerHTML;
 }
 
-/**
- * Show a toast notification
- * @param {string} message - Message to display
- * @param {string} type - Toast type (success, error, warning, info)
- */
+
 function showToast(message, type = 'success') {
     const Toast = Swal.mixin({
         toast: true,

@@ -6,13 +6,10 @@
     <meta name="description" content="Bóveda de Juegos Retro - Tu biblioteca de videojuegos clásicos">
     <title>🎮 Bóveda de Juegos Retro</title>
     
-    <!-- CSS Styles -->
     <link rel="stylesheet" href="style.css">
     
-    <!-- SweetAlert2 CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
     
-    <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
 </head>
 <body>
@@ -20,22 +17,18 @@
     <header class="header">
         <div class="header-content">
             <div class="header-top">
-                <!-- Logo and Title -->
                 <div class="logo">
                     <span class="logo-icon">🕹️</span>
                     <h1>Bóveda de Juegos Retro</h1>
                 </div>
                 
-                <!-- Theme Toggle Button -->
                 <button id="themeToggle" class="theme-toggle" aria-label="Cambiar tema">
                     <span class="theme-icon">☀️</span>
                     <span class="theme-text">Modo Claro</span>
                 </button>
             </div>
             
-            <!-- Search and Filter Controls -->
             <div class="controls">
-                <!-- Search Input -->
                 <div class="search-wrapper">
                     <input 
                         type="text" 
@@ -46,7 +39,6 @@
                     >
                 </div>
                 
-                <!-- Category Filter -->
                 <div class="filter-wrapper">
                     <select id="categoryFilter" class="category-select" aria-label="Filtrar por categoría">
                         <option value="all">📁 Todas las Categorías</option>
@@ -138,7 +130,6 @@
                 </div>
                 
                 <div class="form-row">
-                    <!-- Description -->
                     <div class="form-group full-width">
                         <label for="gameDescription" class="form-label">
                             <span>📄</span> Descripción
@@ -153,7 +144,6 @@
                     </div>
                 </div>
                 
-                <!-- Submit Button -->
                 <button type="submit" class="submit-btn">
                     <span class="submit-icon">➕</span>
                     Agregar Juego
@@ -162,7 +152,6 @@
         </section>
     </main>
 
-    <!-- ===================== FOOTER ===================== -->
     <footer class="footer">
         <p class="footer-text">
             Desarrollado por <strong>Albert Lukmanov</strong>
@@ -175,10 +164,8 @@
         </p>
     </footer>
 
-    <!-- SweetAlert2 JS -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     
-    <!-- Main JavaScript -->
     <script src="main.js"></script>
 </body>
 </html>
