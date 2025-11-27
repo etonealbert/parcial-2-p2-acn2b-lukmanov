@@ -1,25 +1,66 @@
-# CakePHP 3
+# ========================
+# IDE / Editor
+# ========================
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.cursor/
 
-/vendor/*
-/config/app.php
+# ========================
+# OS Generated Files
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# ========================
+# PHP
+# ========================
+*.log
+*.cache
+vendor/
+composer.lock
 
-/logs/*
-!/logs/empty
+# ========================
+# Environment
+# ========================
+.env
+.env.local
+.env.*.local
+config.local.php
 
-# CakePHP 2
+# ========================
+# Temporary Files
+# ========================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# ========================
+# Build / Distribution
+# ========================
+dist/
+build/
+node_modules/
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+npm-debug.log*
+
+# ========================
+# Backups
+# ========================
+*.bak
+*.backup
+backup/
