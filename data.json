@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "title": "Super Mario World",
+    "category": "Platformer",
+    "description": "El fontanero más famoso regresa en esta aventura épica para rescatar a la Princesa Peach del malvado Bowser. ¡Con Yoshi como compañero!",
+    "image": "https://placehold.co/400x600/E52521/FFFFFF?text=Super+Mario+World"
+  },
+  {
+    "id": 2,
+    "title": "The Legend of Zelda: A Link to the Past",
+    "category": "RPG",
+    "description": "Link debe rescatar a las siete doncellas y derrotar al malvado Ganon en esta obra maestra de acción y aventura.",
+    "image": "https://placehold.co/400x600/1E7B3E/FFFFFF?text=Zelda+ALTTP"
+  },
+  {
+    "id": 3,
+    "title": "Street Fighter II",
+    "category": "Fighting",
+    "description": "El rey de los juegos de lucha. Elige entre 8 guerreros legendarios y demuestra quién es el mejor luchador del mundo.",
+    "image": "https://placehold.co/400x600/0066CC/FFFFFF?text=Street+Fighter+II"
+  },
+  {
+    "id": 4,
+    "title": "Sonic the Hedgehog 2",
+    "category": "Platformer",
+    "description": "El erizo azul más veloz regresa con su amigo Tails para detener los planes del Dr. Robotnik. ¡Velocidad supersónica!",
+    "image": "https://placehold.co/400x600/0066FF/FFFFFF?text=Sonic+2"
+  },
+  {
+    "id": 5,
+    "title": "Chrono Trigger",
+    "category": "RPG",
+    "description": "Viaja a través del tiempo para salvar el mundo en este RPG considerado uno de los mejores de la historia.",
+    "image": "https://placehold.co/400x600/8B4513/FFFFFF?text=Chrono+Trigger"
+  },
+  {
+    "id": 6,
+    "title": "Pac-Man",
+    "category": "Puzzle",
+    "description": "El clásico de los clásicos. Come todos los puntos mientras evitas a los fantasmas en este icónico juego de arcade.",
+    "image": "https://placehold.co/400x600/FFD700/000000?text=Pac-Man"
+  },
+  {
+    "id": 7,
+    "title": "Contra",
+    "category": "Shooter",
+    "description": "Dos soldados contra un ejército alienígena. El código Konami nació aquí. ¡30 vidas y a luchar!",
+    "image": "https://placehold.co/400x600/8B0000/FFFFFF?text=Contra"
+  },
+  {
+    "id": 8,
+    "title": "Tetris",
+    "category": "Puzzle",
+    "description": "El juego de puzzles más adictivo jamás creado. Encaja las piezas y limpia líneas hasta el infinito.",
+    "image": "https://placehold.co/400x600/4169E1/FFFFFF?text=Tetris"
+  },
+  {
+    "id": 9,
+    "title": "Mortal Kombat II",
+    "category": "Fighting",
+    "description": "Fatalities, brutalidades y mucha sangre. El torneo más sangriento de los videojuegos continúa.",
+    "image": "https://placehold.co/400x600/2F4F4F/FFD700?text=Mortal+Kombat+II"
+  },
+  {
+    "id": 10,
+    "title": "Final Fantasy VI",
+    "category": "RPG",
+    "description": "Una ópera épica con la historia más emotiva de la saga. Terra, Locke y compañía contra el imperio de Kefka.",
+    "image": "https://placehold.co/400x600/4B0082/FFFFFF?text=Final+Fantasy+VI"
+  },
+  {
+    "id": 11,
+    "title": "Donkey Kong Country",
+    "category": "Platformer",
+    "description": "Gráficos revolucionarios y gameplay adictivo. Donkey y Diddy Kong recuperan sus bananas robadas.",
+    "image": "https://placehold.co/400x600/8B4513/FFD700?text=DK+Country"
+  },
+  {
+    "id": 12,
+    "title": "Space Invaders",
+    "category": "Shooter",
+    "description": "El juego que inició la revolución arcade. Defiende la Tierra de oleadas interminables de invasores espaciales.",
+    "image": "https://placehold.co/400x600/000000/00FF00?text=Space+Invaders"
+  },
+  {
+    "id": 13,
+    "title": "Mega Man X",
+    "category": "Platformer",
+    "description": "X, el nuevo héroe Maverick Hunter, debe derrotar a Sigma y sus 8 jefes robots. ¡Acción sin parar!",
+    "image": "https://placehold.co/400x600/00BFFF/FFFFFF?text=Mega+Man+X"
+  },
+  {
+    "id": 14,
+    "title": "Galaga",
+    "category": "Shooter",
+    "description": "El shooter espacial definitivo de los arcades. Destruye formaciones de naves alienígenas y rescata tu nave capturada.",
+    "image": "https://placehold.co/400x600/191970/FF6347?text=Galaga"
+  },
+  {
+    "id": 15,
+    "title": "Super Metroid",
+    "category": "Platformer",
+    "description": "Samus Aran en su mejor aventura. Explora el planeta Zebes, obtén power-ups y derrota a Mother Brain.",
+    "image": "https://placehold.co/400x600/800080/00FFFF?text=Super+Metroid"
+  },
+  {
+    "id": 16,
+    "title": "Dr. Mario",
+    "category": "Puzzle",
+    "description": "Mario se pone la bata de médico para eliminar virus con cápsulas de colores. ¡Puzzles adictivos garantizados!",
+    "image": "https://placehold.co/400x600/FFFFFF/E52521?text=Dr.+Mario"
+  },
+  {
+    "id": 17,
+    "title": "Golden Axe",
+    "category": "Fighting",
+    "description": "Tres guerreros buscan venganza contra Death Adder. Beat 'em up clásico de Sega con magia y acción.",
+    "image": "https://placehold.co/400x600/DAA520/000000?text=Golden+Axe"
+  },
+  {
+    "id": 18,
+    "title": "R-Type",
+    "category": "Shooter",
+    "description": "Shoot 'em up horizontal legendario. Tu nave R-9 contra el imperio Bydo. Dificultad brutal pero satisfactoria.",
+    "image": "https://placehold.co/400x600/FF4500/FFFFFF?text=R-Type"
+  }
+]
+
