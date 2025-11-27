@@ -27,8 +27,8 @@ parcial-2-p2-acn2b-lukmanov/
 ## 🚀 Instalación y Ejecución
 
 ### Requisitos
-- PHP 7.4 o superior
-- Servidor web (Apache, Nginx, o servidor de desarrollo PHP)
+- PHP 7.4 
+
 
 ### Opción 1: Servidor de desarrollo PHP
 ```bash
@@ -103,7 +103,7 @@ Lógica de JavaScript incluyendo:
 - **CSS3**: Variables CSS, Grid, Flexbox, Animaciones
 - **JavaScript (ES6+)**: Fetch API, async/await, módulos
 - **SweetAlert2**: Notificaciones elegantes
-- **Google Fonts**: Press Start 2P (pixel art), Roboto (legibilidad)
+
 
 ## 📱 Diseño Responsivo
 
@@ -164,10 +164,4 @@ Content-Type: application/json
 
 Proyecto desarrollado de Albert Lukmanov 
 
-## 📄 Licencia
 
-Este proyecto es de uso educativo.
-
----
-
-**¡Disfruta de los juegos retro! 🕹️**
